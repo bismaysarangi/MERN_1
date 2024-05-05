@@ -77,6 +77,26 @@ switch(ch) {
         break;
 }
 
+// Looping
+
+for(let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+// Functions
+
+function namee(a) {
+    console.log("Hello"+ a);
+}
+
+namee("Bismay");
+
+function add(a, b) {
+    console.log(a+b);
+}
+
+add(4,6);
+
 // Calculating execution time
 console.time('loop_time')
 
