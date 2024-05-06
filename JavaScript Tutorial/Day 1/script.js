@@ -95,7 +95,27 @@ function add(a, b) {
     console.log(a+b);
 }
 
-add(4,6);
+add(4,60);
+
+let subtract = (a, b) => console.log(a - b);
+
+subtract(400, 20)
+
+// Arrays
+
+names = ['Bismay', 'Rahul', 'Ram', 'Sheena'];
+names.splice(1, 0, 'Mandeep');
+console.log(names);
+
+num = [10, 20, 30, 40];
+num.forEach((value, index, array) => {
+    console.log(value + " " + index + " " + array);
+});
+
+let ar = num.map((val, index) => {
+    return val+20;
+})
+console.log(ar);
 
 // Calculating execution time
 console.time('loop_time')
