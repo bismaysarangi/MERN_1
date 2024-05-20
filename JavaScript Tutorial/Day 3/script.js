@@ -63,3 +63,27 @@ function approved() {
 loadingData(function() {
     approved();
 });
+
+//Async Await
+
+// async function Ex() {
+//     await loadingData();
+//     await approved();
+// }
+
+// Ex().catch((err) => {
+//     console.log(err);
+// });
+
+//SetInterval
+
+setInterval(hey, 2000);
+
+function hey() {
+    let date = new Date().toLocaleTimeString();
+    console.log(date);
+}
+
+// Call Bind Apply
+
+//Written in copy
