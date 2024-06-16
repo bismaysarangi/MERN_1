@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #my_div {
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            border: 2px solid black;
+        }
+
+        #last_div {
+            height: 100px;
+            width: 100px;
+            background-color: bisque;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="my_div" onmouseover="onMouseOver()" onmouseout = "onMouseOut()">
+    </div>
+    <br>
+    <button onclick="changeColor()">
+        Change Color
+    </button>
+    <div id="last_div">
+    </div>
+    <br>
+    <button id = 'btn'>
+        Change Background
+    </button>
+    <script src="./last_part.js"></script>
+</body>
+</html>
